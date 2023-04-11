@@ -10,6 +10,8 @@
 #include <stdlib.h>
 #include <sqlite3.h>
 
+void createTable(sqlite3 *dataBase, char *sqlRequest, int rc);
+
 void createDataBase();
 
 #endif //LABRABOTA5PR2_AUTOREPAIR_INCLUDE_BATABASE_H_
